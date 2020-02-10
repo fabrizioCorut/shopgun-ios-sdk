@@ -17,3 +17,6 @@
 [submodule "External/swift-future"]
 	path = External/swift-future
 	url = https://github.com/shopgun/swift-future.git
+[submodule "External/tjek-eventskit-swift"]
+	path = External/tjek-eventskit-swift
+	url = https://lozhuf@github.com/shopgun/tjek-eventskit-swift.git
