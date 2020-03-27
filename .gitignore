@@ -1,40 +1,5 @@
-## OS X Finder
 .DS_Store
-
-## Build generated
-build/
-DerivedData
-
-## Various settings
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-
-## Other
-*.xccheckout
-*.moved-aside
-*.xcuserstate
-*.xcscmblueprint
-
-## Obj-C/Swift specific
-*.hmap
-*.ipa
-
-## Dependency Managers
-Pods/
-Carthage/Build
-
-## Project specific
-*.secret.json
-
-## Demos
-Demos/CocoapodsDemo/Pods/
-Demos/CocoapodsDemo/Podfile.lock
-Demos/CarthageDemo/Carthage/
-Demos/CarthageDemo/Cartfile.resolved
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/

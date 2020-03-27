@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE83805E240FE4E900A95999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE83805D240FE4E900A95999 /* AppDelegate.swift */; };
+		AE838060240FE4E900A95999 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE83805F240FE4E900A95999 /* SceneDelegate.swift */; };
+		AE838062240FE4E900A95999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE838061240FE4E900A95999 /* ViewController.swift */; };
+		AE838065240FE4E900A95999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE838063240FE4E900A95999 /* Main.storyboard */; };
+		AE838067240FE4EB00A95999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE838066240FE4EB00A95999 /* Assets.xcassets */; };
+		AE83806A240FE4EB00A95999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE838068240FE4EB00A95999 /* LaunchScreen.storyboard */; };
+		AE838078240FE5ED00A95999 /* TjekSDK in Frameworks */ = {isa = PBXBuildFile; productRef = AE838077240FE5ED00A95999 /* TjekSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE83805A240FE4E900A95999 /* SDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE83805D240FE4E900A95999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE83805F240FE4E900A95999 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE838061240FE4E900A95999 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE838064240FE4E900A95999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE838066240FE4EB00A95999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE838069240FE4EB00A95999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE83806B240FE4EB00A95999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE838076240FE5BF00A95999 /* TjekSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TjekSDK; path = ../..; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE838057240FE4E900A95999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE838078240FE5ED00A95999 /* TjekSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE838051240FE4E900A95999 = {
+			isa = PBXGroup;
+			children = (
+				AE83805C240FE4E900A95999 /* SDKExample */,
+				AE83805B240FE4E900A95999 /* Products */,
+				AE838074240FE58800A95999 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE83805B240FE4E900A95999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE83805A240FE4E900A95999 /* SDKExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE83805C240FE4E900A95999 /* SDKExample */ = {
+			isa = PBXGroup;
+			children = (
+				AE83805D240FE4E900A95999 /* AppDelegate.swift */,
+				AE83805F240FE4E900A95999 /* SceneDelegate.swift */,
+				AE838061240FE4E900A95999 /* ViewController.swift */,
+				AE838063240FE4E900A95999 /* Main.storyboard */,
+				AE838066240FE4EB00A95999 /* Assets.xcassets */,
+				AE838068240FE4EB00A95999 /* LaunchScreen.storyboard */,
+				AE83806B240FE4EB00A95999 /* Info.plist */,
+			);
+			path = SDKExample;
+			sourceTree = "<group>";
+		};
+		AE838074240FE58800A95999 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE838076240FE5BF00A95999 /* TjekSDK */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE838059240FE4E900A95999 /* SDKExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE83806E240FE4EB00A95999 /* Build configuration list for PBXNativeTarget "SDKExample" */;
+			buildPhases = (
+				AE838056240FE4E900A95999 /* Sources */,
+				AE838057240FE4E900A95999 /* Frameworks */,
+				AE838058240FE4E900A95999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE83807A240FF44100A95999 /* PBXTargetDependency */,
+			);
+			name = SDKExample;
+			packageProductDependencies = (
+				AE838077240FE5ED00A95999 /* TjekSDK */,
+			);
+			productName = SDKExample;
+			productReference = AE83805A240FE4E900A95999 /* SDKExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE838052240FE4E900A95999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Tjek;
+				TargetAttributes = {
+					AE838059240FE4E900A95999 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AE838055240FE4E900A95999 /* Build configuration list for PBXProject "SDKExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE838051240FE4E900A95999;
+			packageReferences = (
+			);
+			productRefGroup = AE83805B240FE4E900A95999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE838059240FE4E900A95999 /* SDKExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE838058240FE4E900A95999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE83806A240FE4EB00A95999 /* LaunchScreen.storyboard in Resources */,
+				AE838067240FE4EB00A95999 /* Assets.xcassets in Resources */,
+				AE838065240FE4E900A95999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE838056240FE4E900A95999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE838062240FE4E900A95999 /* ViewController.swift in Sources */,
+				AE83805E240FE4E900A95999 /* AppDelegate.swift in Sources */,
+				AE838060240FE4E900A95999 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE83807A240FF44100A95999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = AE838079240FF44100A95999 /* TjekSDK */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE838063240FE4E900A95999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE838064240FE4E900A95999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE838068240FE4EB00A95999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE838069240FE4EB00A95999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE83806C240FE4EB00A95999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE83806D240FE4EB00A95999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE83806F240FE4EB00A95999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN86AVA6GX;
+				INFOPLIST_FILE = SDKExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjek.SDKExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE838070240FE4EB00A95999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN86AVA6GX;
+				INFOPLIST_FILE = SDKExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjek.SDKExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE838055240FE4E900A95999 /* Build configuration list for PBXProject "SDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE83806C240FE4EB00A95999 /* Debug */,
+				AE83806D240FE4EB00A95999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE83806E240FE4EB00A95999 /* Build configuration list for PBXNativeTarget "SDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE83806F240FE4EB00A95999 /* Debug */,
+				AE838070240FE4EB00A95999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE838077240FE5ED00A95999 /* TjekSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TjekSDK;
+		};
+		AE838079240FF44100A95999 /* TjekSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TjekSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AE838052240FE4E900A95999 /* Project object */;
+}
